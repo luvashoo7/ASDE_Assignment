@@ -1,4 +1,4 @@
-#Task 1
+# Task 1
 
 SELECT d.NAME AS DEPT_NAME, AVG(s.AMT) AS AVG_MONTHLY_SALARY_USD
 FROM Salaries s
@@ -10,7 +10,7 @@ LIMIT 3; -- Limit the output to the top 3 departments with the highest average s
 
 -----------------------------------------------------------------------------------------------------------
 
-#Task 2
+# Task 2
 
 import pandas as p
 employee = p.read_csv("C:\Users\ashis\Downloads\ASDE_Assignment\ASDE Assignment - Employees.csv")
@@ -23,7 +23,7 @@ output.sort_values(ascending=False).head(3)
 
 -----------------------------------------------------------------------------------------------------------
 
-#Task 3 
+# Task 3 
 
 def compute(n):
     if n < 10:
